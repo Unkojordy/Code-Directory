@@ -20,12 +20,15 @@
             border: 10px solid red;
             display: flex;  
             justify-content: center;
-            align-items: center;
+
         }
 /* playing with flex-direction, justify-content and align-item in CSS */
         .container > .img_blocks {
             display: flex;
             flex-direction: column;
+            /* space between adds all the available empty space
+            space arround gives even space between */
+            justify-content: space-evenly;
         }
 
     </style> 
@@ -40,7 +43,7 @@
             <img src="https://source.unsplash.com/random/150x150" alt="">
             <img src="https://source.unsplash.com/random/150x150" alt="">
             <img src="https://source.unsplash.com/random/150x150" alt="">
-            <img src="https://source.unsplash.com/random/150x150" alt="">
+            <!-- <img src="https://source.unsplash.com/random/150x150" alt=""> -->
         </div>
     </div>
 </body>
