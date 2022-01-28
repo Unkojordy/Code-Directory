@@ -42,18 +42,28 @@
 /* flex-basis gives a starting point.. depending on the window size.
 the boxes are dynamically change with the starting point but keeps the same
 asspect sizes between the other boxes */
+
+/* Flex basis vs Flex grow */
+
+/* Flex box grow is the property that defines the ratio of the element that will grow */
         .block1 {
-            flex-basis: 400px;
+             flex-basis: 400px; 
+            /* flex-grow: 4; */
+            /* flex-shrink: 2; */
         }
 
         .block2 {
             flex-basis: 100px;
+            /* flex-grow: 1; */
+            /* flex-shrink: 1; */
         }
 
         .block3 {
             flex-basis: 200px;
+            /* flex-grow: 2; */
+            /* flex-shrink: 1; */
         }
-
+/* flex shrink needs a basis to allow the elements to shrink. */
     </style> 
 </head>
 <body>
